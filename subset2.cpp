@@ -4,7 +4,10 @@
         TC - 2^n * klog(x)
         SC - 2^n * k to store every subset of avg length k
 
-klog(x) is due to inserting every subset in a set.
+klog(x) is due to inserting every subset in a set.(while putting a data structure into another 
+                                                    data structure it takes time, not a constant 
+                                                    value so we take an avg length of each subset
+                                                    to k)
 
 At every index, we make a decision whether to pick or not pick the element at that index. 
 This will help us in generating all possible combinations but does not take care of the duplicates. 
